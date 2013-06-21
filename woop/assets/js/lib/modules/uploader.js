@@ -4,7 +4,7 @@ define(function() {
         $('input[type="file"]').change(function(){
             var that = $(this),
 				filename = that.val();
-			filename = filename.lastIndexOf('/') + 1;
+			filename = filename.split('\\').pop();
             $('.filename span').text(filename);
         });
     };

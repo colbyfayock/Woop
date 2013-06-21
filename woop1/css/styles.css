@@ -1,0 +1,98 @@
+*, html, body, div, table, tr, td, p, h1, h2, h3, h4, h5, h6, a, img, ul, li, input{font-family:Arial, Helvetica, sans-serif;font-size:100%;font-weight:normal;font-style:normal;margin:0;border:0;padding:0;list-style:none;}
+strong{font-weight:bold;}
+
+#upload{
+	width:300px;
+	margin: 10% auto 0;
+}
+#browse-container{
+	width:300px;
+	height:40px;
+	position:static;
+	margin-bottom:5px;
+}
+#wrapper{
+	width:300px;
+	position:relative;
+}
+#file-input {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+}
+#browse {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	background: url('../images/browse-btn.png') top left no-repeat;
+}
+#file-name{
+	color:#777;
+	position: absolute;
+	width: 235px;
+	height: 40px;
+	left: 45px;
+	line-height:40px;
+	background: url('../images/browse-cntnr.png') top left no-repeat;
+	padding:0 10px;
+	overflow:none;
+}
+
+
+#textarea{
+	color:#777;
+	display:block;
+	width: 280px;
+	height:20px;
+	font-size:16px;
+	background-color:#EEE;
+	margin-bottom:5px;
+	padding:10px;
+	background:url('../images/pw-btn.png');
+	background-position:0 0;
+}
+#textarea:hover{background-position:0 -40px;}
+
+#button{
+	display:block;
+	color:#fff;
+	font-weight:bold;
+	width:300px;
+	height:63px;
+	cursor: pointer;
+	font-size:16px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+	background:url('../images/woop-btn.png');
+	background-position:0 0;
+	margin-bottom:5px;
+}
+#button:hover{background-position:0 -63px;}
+#button:active{background-position:0 -63px;margin-top:6px;margin-bottom:4px;}
+
+#uploaded{
+	width:500px;
+	margin:10% auto 0;
+}
+
+.uploaded-img{
+	max-width:490px;
+	border:solid 5px #336699;
+}
+
+.success{
+	color:green;
+	font-size:1.25em;
+	font-weight:bold;
+}
+
+.fail{
+	color:red;
+	font-size:1.25em;
+	font-weight:bold;
+}
